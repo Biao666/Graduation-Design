@@ -1,0 +1,47 @@
+Arguments: 
+  D:\nodejs\node.exe C:\Users\big\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add LiveScript chai chalk cheerio get-repo line-json mkdirp module object-keys repl rimraf rollup-plugin-buble source-map/source-map-consumer source-map/source-map-generator source-map/source-node tap tap/package.json tape temp test/source-map/assert test/source-map/util testit uglify-js/test/run-tests.js uubench webpack
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\FileReceive\apache-tomcat-8.0.52\bin;C:\Program Files\Java\jre1.8.0_162\bin;C:\Program Files\Java\jre1.8.0_162\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\java\jdk\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\wamp\bin\mysql\mysql5.7.14\bin;D:\Program Files\Git\cmd;D:\Program Files\tortoiseGit\bin;D:\nodejs\;C:\Users\big\AppData\Roaming\npm;D:\Microsoft VS Code\bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.27.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+
+npm manifest: 
+  {
+      "name": "bishe",
+      "version": "0.0.0",
+      "private": true,
+      "scripts": {
+          "start": "node ./bin/www"
+      },
+      "dependencies": {
+          "cookie-parser": "~1.4.3",
+          "debug": "~2.6.9",
+          "express": "~4.16.0",
+          "http-errors": "~1.6.2",
+          "morgan": "~1.9.0",
+          "pug": "2.0.0-beta11"
+      },
+      "devDependencies": {
+          "@babel/types": "^7.4.4"
+      },
+      "main": "index.js",
+      "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
